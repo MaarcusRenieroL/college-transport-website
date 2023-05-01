@@ -13,9 +13,21 @@ export default function BusInfo() {
             <div
                 className={"space-y-10 mt-5"}
             >
-                <p>Morning to college - 101 buses</p>
-                <p>Return from college - 3:15 pm - 95 buses</p>
-                <p>Return for admin - 5:15 pm -5 buses</p>
+                <p
+                    className={"morning"}
+                >
+                    Morning to college - 101 buses
+                </p>
+                <p
+                    className={"return-students"}
+                >
+                    Return from college - 3:15 pm - 95 buses
+                </p>
+                <p
+                    className={"return-admin"}
+                >
+                    Return for admin - 5:15 pm - 5 buses
+                </p>
             </div>
         </div>
     )
